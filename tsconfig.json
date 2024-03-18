@@ -11,15 +11,10 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "es2020",
-    "lib": [
-      "es2018",
-      "dom"
-    ],
+    "lib": ["es2018", "dom"],
     "useDefineForClassFields": false,
     "paths": {
-      "wallet-lib": [
-        "projects/wallet-lib/src/public-api"
-      ]
+      "wallet-lib": ["projects/wallet-lib/src/public-api"]
     }
   }
 }
